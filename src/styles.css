@@ -363,6 +363,18 @@ body {
     background-color: rgba(187, 222, 251, 0.1);
 }
 
+.btn-filled-blue {
+    border: 1px solid #90CAF9;
+    color: #90CAF9;
+    background-color: rgba(187, 222, 251, 0.1);
+}
+
+.btn-filled-blue:hover {
+    border: 1px solid #90CAF9;
+    color: #FFFFFF;
+    background-color: rgba(187, 222, 251, 0.1);
+}
+
 a.custom-link {
     color: #90CAF9;
 }
@@ -420,4 +432,19 @@ a.custom-link:hover {
     --stroke-duration: 0.3s;
     --stroke-easing: cubic-bezier(0.3, 1.5, 0.5, 1);
     --stroke-delay: 0.195s;
+}
+
+.bg-input-field {
+    border-radius: 0.5rem;
+    background-color: rgba(144, 202, 249, 0.01);
+}
+
+.bg-input-field:focus {
+    border-radius: 0.5rem;
+    color: #FFF;
+    background-color: rgba(144, 202, 249, 0.1);
+}
+
+.bg-input-field:focus::placeholder {
+    color: rgba(255, 255, 255, 0.5);;
 }
