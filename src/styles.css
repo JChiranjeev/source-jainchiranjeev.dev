@@ -386,9 +386,7 @@ a.custom-link:hover {
 
 .underline {
     --line: #646b8c;
-    --color: #2b3044;
     text-decoration: none;
-    color: var(--color);
     position: relative;
 }
 
